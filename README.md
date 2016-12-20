@@ -28,7 +28,7 @@ Students will find templates for undergraduate, master and doctorate.
 
 5 - *Forma de Análise dos Resultados* / Result Analysis Method
 
-Referências / References
+*Referências* / References
 
 **Chapters and structure suggestion for final undergraduate research report**
 
@@ -183,5 +183,25 @@ São os últimos textos para se escrever, após o trabalho praticamente pronto
 **Resumo** / Abstract 
 
 Last part to write, mainly after have the work almost finished
+
+[Top](https://github.com/dloubach/research-plan-templates#research-plan-templates)
+
+
+## Chapters suggestion for doctorate research plans ##
+
+*Título da Pesquisa* / Research Title
+
+*Resumo* / Abstract (must be both Portuguese and English)
+
+1. *Introdução* / Introduction
+1. *Trabalhos Relacionados* / Related Works
+1. *Objetivo* / Main Goal
+1. *Escopo da Pesquisa* / Research Scope
+1. *Plano de Trabalho e Cronograma* / Work Plan and Schedule
+1. *Materiais e Métodos* / Parts and Methods
+1. *Forma de Análise dos Resultados* / Result Analysis Method
+1. *Estágio de Pesquisa no Exterior* / Research Internship Abroad
+
+*Referências* / References
 
 [Top](https://github.com/dloubach/research-plan-templates#research-plan-templates)
