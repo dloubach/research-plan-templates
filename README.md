@@ -13,6 +13,12 @@ Students will find templates for undergraduate, master and doctorate.
 [PhD Research Plan (Portuguese/English)](#chapters-suggestion-for-doctorate-research-plans)
 
 
+**Some help (just in case)**:
+
+[Git](https://git-scm.com/book/en/v2)
+
+[LaTeX](http://tug.ctan.org/info/lshort/english/lshort.pdf)
+
 
 
 ## Chapters suggestion for undergraduate/master research plans ##
