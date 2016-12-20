@@ -48,6 +48,7 @@ When writing the final report, the following structure is suggested:
 
 *Referências Bibliográficas* / References
 
+[Top](https://github.com/dloubach/research-plan-templates#research-plan-templates)
 
 
 ## Minimum chapter/structure suggestion for MSc reports (Portuguese) ##
@@ -110,10 +111,11 @@ When writing the final report, the following structure is suggested:
 
 **Referências Bibliográficas**
 
-
 **Resumo** / Abstract 
 
 São os últimos textos para se escrever, após o trabalho praticamente pronto
+
+[Top](https://github.com/dloubach/research-plan-templates#research-plan-templates)
 
 
 
@@ -181,3 +183,5 @@ São os últimos textos para se escrever, após o trabalho praticamente pronto
 **Resumo** / Abstract 
 
 Last part to write, mainly after have the work almost finished
+
+[Top](https://github.com/dloubach/research-plan-templates#research-plan-templates)
