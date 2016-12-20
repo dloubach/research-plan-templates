@@ -12,7 +12,7 @@ Students will find templates for undergraduate, master and doctorate.
 
 
 
-## Chapters suggestion for undergraduate research plans ##
+## Chapters suggestion for undergraduate/master research plans ##
 
 *Título da Pesquisa* / Research Title
 
