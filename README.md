@@ -47,14 +47,11 @@ When writing the final report, the following structure is suggested:
 
 ## Minimum chapter/structure suggestion for MSc reports (Portuguese) ##
 
-**1 Introdução (contextualização / motivação)**
+1. Introdução (contextualização / motivação)
 
 * Objetivo da Pesquisa (o que se pretende alcançar com este trabalho)
-
 * Escopo da Pesquisa (o que/ atividades endereçadas no trabalho)
-
 * Requisitos da Pesquisa (deverá ser capaz de propiciar)
-
 * Estrutura do documento (um parágrafo para cada capítulo do trabalho)
 
 
