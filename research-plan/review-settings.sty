@@ -1,0 +1,27 @@
+% Settings for review command
+% for listing the comments in the generated file use:
+% \listoftodos
+%
+% To turn comments off just undef commentmode
+% \def\commentmode{0}
+
+\def\commentmode{1}
+
+\ifnum \commentmode=1
+  \usepackage[colorinlistoftodos,prependcaption,textsize=footnotesize]{todonotes}
+\else
+  \usepackage[disable]{todonotes}
+\fi
+
+% Colors for todo list:
+\newcommand{\colorDloubach}{red!20}  
+\newcommand{\colorStudent}{green!20} 
+
+
+% Capital name: Comment as full line
+% Non-capital name: Comment as margin
+\newcommand{\Dloubach}[1]{\todo[inline,linecolor=\colorDloubach,backgroundcolor=\colorDloubach,size=\normalsize]{[dloubach] #1}}
+\newcommand{\dloubach}[1]{\todo[linecolor=\colorDloubach,backgroundcolor=\colorDloubach]{[dloubach] #1}}
+
+\newcommand{\Student}[1]{\todo[inline,linecolor=\colorStudent,backgroundcolor=\colorStudent,size=\normalsize]{[Student] #1}}
+\newcommand{\student}[1]{\todo[linecolor=\colorStudent,backgroundcolor=\colorStudent]{[Student] #1}}

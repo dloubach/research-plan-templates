@@ -26,6 +26,7 @@ Students will find templates for undergraduate, master and doctorate.
 1. *Plano de Trabalho e Cronograma* / Work Plan and Schedule
 1. *Materiais e Métodos* / Parts and Methods
 1. *Forma de Análise dos Resultados* / Result Analysis Method
+1. *Observações Gerais* / General Notes
 
 *Referências* / References
 
@@ -134,6 +135,7 @@ Last part to write, mainly after have the work almost finished
 1. *Materiais e Métodos* / Parts and Methods
 1. *Forma de Análise dos Resultados* / Result Analysis Method
 1. *Estágio de Pesquisa no Exterior* / Research Internship Abroad
+1. *Observações Gerais* / General Notes
 
 *Referências* / References
 
