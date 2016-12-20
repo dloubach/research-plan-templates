@@ -4,7 +4,7 @@ This repository intends to supply the students, that are about the develop resea
 
 Students will find templates for undergraduate, master and doctorate.
 
-[Undergrand/MSc Research Plans](https://github.com/dloubach/research-plan-templates#chapters-suggestion-for-undergraduate-research-plans)
+[Undergrand/MSc Research Plans](https://github.com/dloubach/research-plan-templates#chapters-suggestion-for-undergraduatemaster-research-plans)
 
 [MSc reports (Portuguese)](https://github.com/dloubach/research-plan-templates#minimum-chapterstructure-suggestion-for-msc-reports-portuguese)
 
