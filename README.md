@@ -43,7 +43,7 @@ When writing the final report, the following structure is suggested:
 
 
 
-## Minimum chapter/structure suggestion for MSc reports ##
+## Minimum chapter/structure suggestion for MSc reports (Portuguese) ##
 
 **1 Introdução (contextualização / motivação)**
 
@@ -107,3 +107,70 @@ When writing the final report, the following structure is suggested:
 **Resumo** / Abstract 
 
 São os últimos textos para se escrever, após o trabalho praticamente pronto
+
+
+
+## Minimum chapter/structure suggestion for MSc reports (English) ##
+
+**1 Introduction (contextualize and work motivation )**
+
+* Research Goal (what is expected from this research)
+
+* Research Scope (which are the activities addressed int this work)
+
+* Research Requirements (what this research must supply)
+
+* Document Structure (a simple paragraph for each document chapter)
+
+
+**2 Background Review**
+
+* Introduce the main concepts and backgrounds for understanding the work being done, work core fundamentals
+
+* Related Works
+
+* Summary
+
+
+**3 Design/Development**
+
+* The development goes here in details
+
+* Summary
+
+
+**4 Experiments**
+
+* Details description of experiments performed to test and verify the design proposed
+
+* Summary
+
+
+**5 Result Discussion**
+
+* Results discussion and assessments 
+
+* Summary
+
+
+**6 Conclusion**
+
+* Specific conclusions (specifically related to the work done)
+
+* Main contributions (what is left for others to work/continue on)
+
+* General conclusions (what are the possible impacts of the work done)
+
+* Scientific and technological production (papers, ...)
+
+* Recommendations
+
+* Future Work Suggestions
+
+
+**References**
+
+
+**Resumo** / Abstract 
+
+Last part to write, mainly after have the work almost finished
