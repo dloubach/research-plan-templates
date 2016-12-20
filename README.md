@@ -21,15 +21,11 @@ Students will find templates for undergraduate, master and doctorate.
 
 *Resumo* / Abstract
 
-1 - *Introdução* / Introduction
-
-2 - *Objetivo* / Main Goal
-
-3 - *Plano de Trabalho e Cronograma* / Work Plan and Schedule
-
-4 - *Materiais e Métodos* / Parts and Methods
-
-5 - *Forma de Análise dos Resultados* / Result Analysis Method
+1. *Introdução* / Introduction
+1. *Objetivo* / Main Goal
+1. *Plano de Trabalho e Cronograma* / Work Plan and Schedule
+1. *Materiais e Métodos* / Parts and Methods
+1. *Forma de Análise dos Resultados* / Result Analysis Method
 
 *Referências* / References
 
@@ -37,21 +33,16 @@ Students will find templates for undergraduate, master and doctorate.
 
 When writing the final report, the following structure is suggested:
 
-1 - *Introdução* / Introduction
-
-2 - *Revisão Bibliográfica* / Background
-
-3 - *Projeto* / Design Proposal
-
-4 - *Experimentos* / Experiments
-
-5 - *Análise de Resultados* / Results and Discussions
-
-6 - *Conclusão* / Conclusion
+1. *Introdução* / Introduction
+1. *Revisão Bibliográfica* / Background
+1. *Projeto* / Design Proposal
+1. *Experimentos* / Experiments
+1. *Análise de Resultados* / Results and Discussions
+1. *Conclusão* / Conclusion
 
 *Referências Bibliográficas* / References
 
-[Top](https://github.com/dloubach/research-plan-templates#research-plan-templates)
+[Top](#research-plan-templates)
 
 
 ## Minimum chapter/structure suggestion for MSc reports (Portuguese) ##
@@ -118,7 +109,7 @@ When writing the final report, the following structure is suggested:
 
 São os últimos textos para se escrever, após o trabalho praticamente pronto
 
-[Top](https://github.com/dloubach/research-plan-templates#research-plan-templates)
+[Top](#research-plan-templates)
 
 
 
@@ -187,7 +178,7 @@ São os últimos textos para se escrever, após o trabalho praticamente pronto
 
 Last part to write, mainly after have the work almost finished
 
-[Top](https://github.com/dloubach/research-plan-templates#research-plan-templates)
+[Top](#research-plan-templates)
 
 
 ## Chapters suggestion for doctorate research plans ##
@@ -207,4 +198,4 @@ Last part to write, mainly after have the work almost finished
 
 *Referências* / References
 
-[Top](https://github.com/dloubach/research-plan-templates#research-plan-templates)
+[Top](#research-plan-templates)
