@@ -4,7 +4,7 @@ This repository intends to supply the students, that are about the develop resea
 
 Students will find templates for undergraduate, master and doctorate.
 
-[Undergrand/MSc Research Plans (Portuguese/English)](#chapters-suggestion-for-undergraduatemaster-research-plans)
+[Undergrad/MSc Research Plans (Portuguese/English)](#chapters-suggestion-for-undergraduatemaster-research-plans)
 
 [MSc reports (Portuguese)](#minimum-chapterstructure-suggestion-for-msc-reports-portuguese)
 
