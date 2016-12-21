@@ -1,5 +1,6 @@
 ## How-to ##
-*First of all, get a cup of :coffee:... then get a linux-based PC with Emacs. Now you're able to start (just kidding, sometimes you may start without coffee...)
+
+_First of all, get a cup of :coffee:... then get a linux-based PC with Emacs. Now you're able to start (just kidding, sometimes you may start without coffee...)_
 
 
 * To generate the PDF file (rplan.pdf) using the available Makefile (from command line from *research-plan* folder)
@@ -34,4 +35,5 @@ All you need is in [homebrew](http://brew.sh) (basically) and the terminal, and 
 ## Getting LaTeX ##
 [The LaTeX Project](https://www.latex-project.org/get/)
 
-Good research :+1:
+___
+Good research :+1:, now it's your turn to fill the blanks!
