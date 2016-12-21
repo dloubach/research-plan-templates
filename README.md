@@ -13,11 +13,11 @@ Students will find templates for undergraduate, master and doctorate.
 [PhD Research Plan (Portuguese/English)](#chapters-suggestion-for-doctorate-research-plans)
 
 
-**Some help (just in case)**:
+_Some help (just in case)_:
 
-[Git](https://git-scm.com/book/en/v2)
+> [Pro Git book](https://git-scm.com/book/en/v2) (mainly chapters 1 & 2)
 
-[LaTeX](http://tug.ctan.org/info/lshort/english/lshort.pdf)
+> [The Not So Short Introduction to LaTeX](http://tug.ctan.org/info/lshort/english/lshort.pdf)
 
 
 
@@ -41,7 +41,7 @@ Students will find templates for undergraduate, master and doctorate.
 When writing the final report, the following structure is suggested:
 
 1. *Introdução* / Introduction
-1. *Revisão Bibliográfica* / Background
+1. *Revisão Bibliográfica* / Background
 1. *Projeto* / Design Proposal
 1. *Experimentos* / Experiments
 1. *Análise de Resultados* / Results and Discussions
