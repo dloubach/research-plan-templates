@@ -17,7 +17,7 @@
 %  the area knowledgement.
 %  20 pages maximum.
 %---------------------------------------------------------------------------- 
-\documentclass[12pt,a4paper]{article}
+\documentclass[12pt, a4paper]{article}
 
 % [portuguese|english], label=[pt_br, en_usa], level=[undergrad | msc | phd]
 \usepackage[english, label=en_usa, level=phd]{general-settings}
@@ -25,7 +25,6 @@
 % [on | off]
 \usepackage[on]{review-settings}
 
-%---------------------------------------------------------------------------- 
 
 % title definitions
 \newcommand{\researchTitle}{The Great Title of your Great Research}
@@ -71,9 +70,10 @@ Aqui vai o resumo do seu trabalho...\\%
 \newpage
 \section{\sectionI}
 \label{sec:introducao}
-Aqui vai a introdução do seu trabalho, contextualizando o leitor no assunto principal da sua pesquisa.
+% Aqui vai a introdução do seu trabalho, contextualizando o leitor no assunto principal da sua pesquisa.
+Here it goes the introduction of your research work, thus making the reader comfortable with the main subject of your topic.
 
-Exemplo de figura \ref{fig:perf_flex}:
+Figure example \ref{fig:perf_flex}:
 
 \begin{figure}[ht]
 	\centering
@@ -89,57 +89,66 @@ Exemplo de figura \ref{fig:perf_flex}:
 			node[pos=1,above left,rotate = 90]{flexibilidade};
 		\draw[color=gray,double,thick,-latex'] (SA)++(40:1) -- ++(40:1);
 	\end{tikzpicture}
-	\caption{Performance vs. flexibilidade em GPPs, ASICs e FPGAs.
-	  Adaptado de \cite{Bobda2007a}.}
+	\caption{Performance vs. flexibility considering GPPs, ASICs and FPGAs.
+	  Adapted from \cite{Bobda2007a}.}
 	\label{fig:perf_flex}
 \end{figure}
 
 
 \section{\sectionII}
 \label{sec:trabalhos-relacionados}
-Esta seção deve apresentar, de forma breve, os principais trabalhos relacionados aos conceitos fundamentais da sua pesquisa.
+% Esta seção deve apresentar, de forma breve, os principais trabalhos relacionados aos conceitos fundamentais da sua pesquisa.
+This section should briefly introduce the main works related to the fundamental concepts of your research.
 
-Exemplo:\\%
-O trabalho \cite{Loubach2016a} introduz um \textit{design} de reconfiguração em tempo de execução para sistemas embarcados reconfiguráveis visando sistemas aviônicos. Leva-se em consideração principalmente a performance e o consumo de energia para reconfiguração parcial e total. Baseado nos resultados obtidos para consumo de energia, tempo de reconfiguração e tamanho dos \textit{bitstreams} (bits de configuração de FPGAs), pode-se considerar que sistemas embarcados reconfiguráveis em tempo real são viáveis para serem utilizados em sistemas aviônicos de gerações futuras.
+% Busque dar uma visão ampla de trabalhos básicos fundamentais e também trabalhos mais recentes.
+Your target here is to give an overview of both fundamental research (a.k.a., old and good ones) and the new trends of your topic.
 
-Busque dar uma visão ampla de trabalhos básicos fundamentais e também trabalhos mais recentes.
+Example:\\%
+The research from \cite{Loubach2016a} introduces a runtime reconfiguration design applicable to embedded systems, targeting avionics systems. It considers both performance and power consumption to partially of fully reconfigure the device. Results show that this design is feasible to be applied to future generations of avionics systems.
 
 
 \section{\sectionIII}
 \label{sec:objetivo}
-O objetivo desse trabalho de pesquisa consiste em ``o que vc vai fazer de pesquisa'', visando ``qual o benefício principal esperado'' .
+Clearly state the main goal of your work, example:
+
+\begin{quotation}\bf
+  This research work main goal is to give you a good example of how to first write your proposal, aiming the good quality of it and finally its successful acception by the funding agency.  
+\end{quotation}
 
 
 \section{\sectionIV}
 \label{sec:escopo-da-pesquisa}
-O escopo deste trabalho de pesquisa concentra-se nos seguintes tópicos principais:
+Example:
+
+This research work scope is basically comprised by the following topics:
 
 \begin{itemize}
-\item Estudar ``isso'';
-\item Estudar ``aquilo'';
-\item Definição de ``modelo/projeto/desing/.../o que vc estiver fazendo de principal''; e
-\item Testes, verificação e validação da ``proposta'' utilizando um estudo de caso.
+\item To study ``that'';
+\item To study ``this'';
+\item To define the  ``model/desing/.../whatever you're doing here''; and
+\item Test, verify, and validate the ``proposal'' by using a case study.
 \end{itemize}
 
 
 \section{\sectionV}
 \label{sec:plano-trabalho-cronograma}
-Deve se apresentar aqui as principais atividades desse plano de trabalho, bem como o cronograma proposto para realização destas atividades.
+%Deve se apresentar aqui as principais atividades desse plano de trabalho, bem como o cronograma proposto para realização destas atividades.
+Introduce here the main activities of your research project, as well as the proposed schedule to accomplish these listed activities.
 
 \begin{enumerate}[A.]
-  \item Disciplinas obrigatórias;
-  \item Revisão bibliográfica;  
-  \item Estudo da ``técnica x, teorema y, modelos z'';  
-  \item Estudo e testes básicos das plataformas de hardware;  
-  \item Elaboração de uma proposta de ``core da sua pesquia'';
-  \item Elaboração de experimentos práticos de hardware;  
-  \item Testes e verificação do modelo proposto; e    
-  \item Validação e refinamentos do modelo proposto.   
+  \item Undertake courses and disciplines;
+  \item Literature Review;  
+  \item Study the ``x technique, y theorem, z models'';  
+  \item Study and basic tests concerning the ``j'' hardware platform;
+  \item Develop your core proposal, relate to the soul of whatever you're proposing here;
+  \item Devise hardware experiments;
+  \item Tests and verification of your ``proposed model''; and
+  \item Validate and refine the ``proposed model''.
 \end{enumerate}
 
 \begin{table}[ht]
   \centering
-  \caption{Exemplo de cronograma de atividades dividido em trimestres.
+  \caption{Schedule example, divided into quarters
     \label{tab:cronograma}}
   \begin{tabular}{|c||c|c|c|c||c|c|c|c||c|c|c|c||c|c|c|c|}
     \hline
@@ -147,7 +156,7 @@ Deve se apresentar aqui as principais atividades desse plano de trabalho, bem co
     & \multicolumn{4}{|c||}{2017 - 2018}
     & \multicolumn{4}{|c||}{2018 - 2019}
     & \multicolumn{4}{|c|}{2019 - 2020} \\ \hline \hline
-    Trimestre & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 &
+    Quarter & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 &
       3 & 4 & 1 & 2 \\ \hline \hline
     A & x & x & \ck & \ck & & & & & & & & & & & & \\ \hline
     B & x & x & \ck &  & & & & & & & & & & & & \\ \hline
@@ -157,30 +166,35 @@ Deve se apresentar aqui as principais atividades desse plano de trabalho, bem co
     F & & & & & & & & \ck & \ck & \ck & & & & & & \\ \hline
 	  G & & & & & & & & & & \ck & \ck & \ck & & & & \\ \hline
 	  H & & & & & & & & & & & & \ck & \ck & \ck & & \\ \hline
-	  Local & \multicolumn{4}{|c||}{Brasil}
-    & \multicolumn{4}{|c||}{Outro País?}
-    & \multicolumn{4}{|c||}{Brasil}
-    & \multicolumn{4}{|c|}{Brasil} \\ \hline
+	  Place & \multicolumn{4}{|c||}{Brazil}
+    & \multicolumn{4}{|c||}{Where?}
+    & \multicolumn{4}{|c||}{Brazil}
+    & \multicolumn{4}{|c|}{Brazil} \\ \hline
 \end{tabular}
 \end{table}
 
-Legenda: \ck~ a ser realizado; x  concluído.
+Where: \ck~ is to be done; x  finished.
 
 
 \section{\sectionVI}
 \label{sec:materiais-metodos}
-Que materiais (placas de hardware, kits de desenvolvimento, itens de medição) são necessários para desenvolver sua pesquisa?
+%Que materiais (placas de hardware, kits de desenvolvimento, itens de medição) são necessários para desenvolver sua pesquisa?
+%Quais os métodos que vc pretente utilizar para desenvolver sua pesquisa? Colocar este tipo de informação nesta seção.
+What are the parts (hardware boards, dev kits, measurement parts) required to develop you research? State them all.
 
-Quais os métodos que vc pretente utilizar para desenvolver sua pesquisa? Colocar este tipo de informação nesta seção.
+What are the methods you first intend to use here? This section is all about these.
 
 \section{\sectionVII}
 \label{sec:analise-resultados}
-Como verificar/analisar se o que vc produziu está correto? \textit{Benchmark} disponível na literatura, estudos comparativos, reprodução de pesquisas? Como garantir a corretude dos resultados. Como verificar quão bom está o seu trabalho em relação ao que já existe atualmente?
+% Como verificar/analisar se o que vc produziu está correto? \textit{Benchmark} disponível na literatura, estudos comparativos, reprodução de pesquisas? Como garantir a corretude dos resultados. Como verificar quão bom está o seu trabalho em relação ao que já existe atualmente?
+
+How one can verify/analyze/check if what you've produced is correct? Available benchmark literature, comparative studies, research repeatable? How to assure you results' correctness? How to verify how good your work is compared to what was done before and currently?
 
 
 \section{\sectionVIII}
 \label{sec:pesquisa-exterior}
-Eventual estágio no exterior dizendo onde, qual o professor supervisor e as devidas justificativas para posterior solicitação formal do estágio de pesquisa no exterior.
+% Eventual estágio no exterior dizendo onde, qual o professor supervisor e as devidas justificativas para posterior solicitação formal do estágio de pesquisa no exterior.
+Eventually, if you're planning to go abroad, here is your chance to justify it including where to go (\textit{e.g.,} institution name) and the name/contact of your possible supervisor abroad.
 
 \section{\sectionIX}
 \label{sec:general-notes}
