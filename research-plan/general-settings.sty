@@ -1,17 +1,119 @@
-% General research plan settings
-\usepackage[utf8]{inputenc}
-\usepackage[portuguese]{babel} % or english
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage{enumerate}
-\usepackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
-\usepackage{float}
-\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=blue]{hyperref}
+%---------------------------------------------------------------------------- 
+%
+%  $Description: General settings package $
+%
+%  $Author: dloubach $
+%  $Release Date: December 20, 2016 $
+%
+%  This package intents do concentrate all other packages required 'as default'
+%  to be used to produce the 'final document', so that the document using this
+%  package remains 'clean'.
+%
+%  ----------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{general-settings}[2016/12/22 General settings package]
 
-\usepackage{tikz}
+% portuguese | english | ...
+\DeclareOption*{%
+  \PassOptionsToPackage{\CurrentOption}{babel}%
+}
+
+% label = english | portuguese
+\DeclareOption{label=en_usa}{%
+  \newcommand{\studentlable}{Student}%
+  \newcommand{\advisorlable}{Advisor}%
+  \newcommand{\subtitle}{Research Project - }%
+  \newcommand{\universitytitle}{University of Campinas}%
+
+  \newcommand{\sectionI}{Introduction}%
+  \newcommand{\sectionII}{Related Works}%
+  \newcommand{\sectionIII}{Main Goal}%
+  \newcommand{\sectionIV}{Research Scope}%
+  \newcommand{\sectionV}{Work Plan and Schedule}%
+  \newcommand{\sectionVI}{Parts and Methods}%
+  \newcommand{\sectionVII}{Result Analysis Method}%
+  \newcommand{\sectionVIII}{Abroad Internship Research}%
+  \newcommand{\sectionIX}{General Notes}%
+  
+  % level = undergrad | msc | phd
+  \DeclareOption{level=undergrad}{\newcommand{\level}{Undergraduate}}%
+  \DeclareOption{level=msc}{\newcommand{\level}{Master of Science}}%
+  \DeclareOption{level=phd}{\newcommand{\level}{Doctorate}}%
+}
+
+\DeclareOption{label=pt_br}{%
+  \newcommand{\studentlable}{Aluno}%
+  \newcommand{\advisorlable}{Orientador}%
+  \newcommand{\subtitle}{Projeto de Pesquisa - }%
+  \newcommand{\universitytitle}{Universidade Estadual de Campinas}%
+
+  \newcommand{\sectionI}{Introdu\c{c}\~ao}%
+  \newcommand{\sectionII}{Trabalhos Relacionados}%
+  \newcommand{\sectionIII}{Objetivo}%
+  \newcommand{\sectionIV}{Escopo da Pesquisa}%
+  \newcommand{\sectionV}{Plano de Trabalho e Cronograma}%
+  \newcommand{\sectionVI}{Materiais e M\'etodos}%
+  \newcommand{\sectionVII}{Forma de An\'alise dos Resultados}%
+  \newcommand{\sectionVIII}{Est\'agio de Pesquisa no Exterior}%
+  \newcommand{\sectionIX}{Observa\c{c}\~oes Gerais}%
+
+  % level = undergrad | msc | phd
+  \DeclareOption{level=undergrad}{\newcommand{\level}{Gradua\c{c}\~ao}}%
+  \DeclareOption{level=msc}{\newcommand{\level}{Mestrado}}%
+  \DeclareOption{level=phd}{\newcommand{\level}{Doutorado}}%
+}
+
+\ProcessOptions\relax
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{babel}
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+\RequirePackage{graphicx}
+\RequirePackage{enumerate}
+\RequirePackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+\RequirePackage{float}
+\RequirePackage[colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=blue]{hyperref}
+
+\RequirePackage{tikz}
 \usetikzlibrary{arrows,shapes}
 
-% figures general path
-\graphicspath{{./figs/}}
+% a little mark
+\newcommand{\ck}{\rule{8pt}{8pt}}
+
+% our title page
+\newcommand{\makeourtitle}{%
+\begin{titlepage}
+  \begin{center}
+		
+    % Upper part of the page
+    \includegraphics[scale=0.5]{unicamp.eps}\\[1cm]
+    \textsc{\LARGE \universitytitle}\\[1cm]
+    
+    \hrule
+    \vspace{0.5cm}
+    \textsc{\Large \researchTitle}\\[0.25cm]
+    \textit{\researchTitleOtherLanguage}\\[0.5cm]
+    {\large \subtitle \level}\\[0.5cm]
+    \hrule
+    \vspace{2cm}
+    % Author and supervisor
+    \begin{minipage}{0.4\textwidth}
+      \begin{flushleft} \large
+        \emph{\studentlable:}\\
+        \studentName
+      \end{flushleft}
+    \end{minipage}
+    \begin{minipage}{0.4\textwidth}
+      \begin{flushright} \large
+        \emph{\advisorlable:} \\
+        Prof. Dr. \advisorName
+      \end{flushright}
+    \end{minipage}
+    \vfill
+    % Date
+    {\today}
+  \end{center}
+\end{titlepage}
+}

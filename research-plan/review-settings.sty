@@ -1,16 +1,32 @@
-% Settings for review command
-% for listing the comments in the generated file use:
-% \listoftodos
+%---------------------------------------------------------------------------- 
 %
-% To turn comments off just undef commentmode
-% \def\commentmode{0}
+%  $Description: Review settings package $
+%
+%  $Author: dloubach, with great contribution from isander $
+%  $Release Date: December 20, 2016 $
+%
+%  This package allows to enable/disable the review settings used during the  
+%  time-frame the project is still under advisor/supervisor review. Then, it 
+%  allows for comments from the supervisor and the student to be in the text   
+%  body.
+%
+%  For listing the comments in the body of your document, use:
+%  \listoftodos
+%
+%  To turn comments on/off when using this package
+%  \usepackage[on|off]{...}
+%  ----------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{review-settings}[2016/12/22 Document review settings package]
 
-\def\commentmode{1}
+\DeclareOption{on}{\def\commentmode{1}}
+\DeclareOption{off}{\def\commentmode{0}}
+\ProcessOptions\relax
 
 \ifnum \commentmode=1
-  \usepackage[colorinlistoftodos,prependcaption,textsize=footnotesize]{todonotes}
+   \RequirePackage[colorinlistoftodos,prependcaption,textsize=footnotesize]{todonotes}
 \else
-  \usepackage[disable]{todonotes}
+   \RequirePackage[disable]{todonotes}
 \fi
 
 % Colors for todo list:
