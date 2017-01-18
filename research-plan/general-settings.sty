@@ -15,13 +15,10 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{general-settings}[2016/12/22 General settings package]
 
-% portuguese | english | ...
-\DeclareOption*{%
+% language = english | portuguese
+\DeclareOption{english}{%
   \PassOptionsToPackage{\CurrentOption}{babel}%
-}
 
-% label = english | portuguese
-\DeclareOption{label=en_usa}{%
   \newcommand{\studentlable}{Student}%
   \newcommand{\advisorlable}{Advisor}%
   \newcommand{\subtitle}{Research Project - }%
@@ -43,7 +40,9 @@
   \DeclareOption{level=phd}{\newcommand{\level}{Doctorate}}%
 }
 
-\DeclareOption{label=pt_br}{%
+\DeclareOption{portuguese}{%
+  \PassOptionsToPackage{\CurrentOption}{babel}%
+  
   \newcommand{\studentlable}{Aluno}%
   \newcommand{\advisorlable}{Orientador}%
   \newcommand{\subtitle}{Projeto de Pesquisa - }%
@@ -110,7 +109,7 @@
     \begin{minipage}{0.4\textwidth}
       \begin{flushright} \large
         \emph{\advisorlable:} \\
-        Prof. Dr. \advisorName
+        \advisorName
       \end{flushright}
     \end{minipage}
     \vfill
