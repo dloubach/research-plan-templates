@@ -12,7 +12,7 @@ Students will find templates for undergraduate, master and doctorate.
 
 * [PhD Research Plan (Portuguese/English)](#chapters-suggestion-for-doctorate-research-plans)
 
-:point_right: **There's also a [how-to](research-plan#how-to) available**
+:point_right: **There's also a [how-to](research-plan#how-to) available**, and also a [wiki page](https://github.com/dloubach/research-plan-templates/wiki)
 
 _Some help (just in case)_:
 
