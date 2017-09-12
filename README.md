@@ -56,30 +56,30 @@ When writing the final report, the following structure is suggested:
 ## Minimum chapter/structure suggestion for MSc reports (Portuguese) ##
 
 1. **Introdução (contextualização / motivação)**
- * Objetivo da Pesquisa (o que se pretende alcançar com este trabalho)
- * Escopo da Pesquisa (o que/ atividades endereçadas no trabalho)
- * Requisitos da Pesquisa (deverá ser capaz de propiciar)
- * Estrutura do documento (um parágrafo para cada capítulo do trabalho)
+   * Objetivo da Pesquisa (o que se pretende alcançar com este trabalho)
+   * Escopo da Pesquisa (o que/ atividades endereçadas no trabalho)
+   * Requisitos da Pesquisa (deverá ser capaz de propiciar)
+   * Estrutura do documento (um parágrafo para cada capítulo do trabalho)
 1. **Revisão Bibliográfica / Fundamentação Teórica**
- * Apresentação de conceitos dos principais pontos (core) do trabalho
- * Trabalhos relacionados
- * Sumário
+   * Apresentação de conceitos dos principais pontos (core) do trabalho
+   * Trabalhos relacionados evidenciando o estado-da-arte sobre o assunto
+   * Sumário
 1. **Projeto/Desenvolvimento**
- * Desenvolvimento do trabalho
- * Sumário
+   * Desenvolvimento do trabalho
+   * Sumário
 1. **Experimentos**
- * Descrição dos experimentos realizados
- * Sumário
+   * Descrição dos experimentos realizados
+   * Sumário
 1. **Análise de Resultados**
- * Discussão e avaliação
- * Sumário
+   * Discussão e avaliação
+   * Sumário
 1. **Conclusão**
- * Conclusões específicas (relacionados especificamente ao trabalho)
- * Principais contribuições (o que o trabalho deixa para outros trabalhos)
- * Conclusões gerais (quais os possíveis impactos do trabalho)
- * Produção científica e tecnológica da pesquisa
- * Recomendações
- * Sugestão de trabalhos futuros
+   * Conclusões específicas (relacionados especificamente ao trabalho)
+   * Principais contribuições (o que o trabalho deixa para outros trabalhos)
+   * Conclusões gerais (quais os possíveis impactos do trabalho)
+   * Produção científica e tecnológica da pesquisa
+   * Recomendações
+   * Sugestão de trabalhos futuros
 
 **Referências Bibliográficas**
 
@@ -94,30 +94,30 @@ São os últimos textos para se escrever, após o trabalho praticamente pronto
 ## Minimum chapter/structure suggestion for MSc reports (English) ##
 
 1. **Introduction (contextualize and work motivation )**
- * Research Goal (what is expected from this research)
- * Research Scope (which are the activities addressed int this work)
- * Research Requirements (what this research must supply)
- * Document Structure (a simple paragraph for each document chapter)
-1. **Background Review**
- * Introduce the main concepts and backgrounds for understanding the work being done, work core fundamentals
- * Related Works
- * Summary
+   * Research Goal (what is expected from this research)
+   * Research Scope (which are the activities addressed int this work)
+   * Research Requirements (what this research must supply)
+   * Document Structure (a simple paragraph for each document chapter)
+1. **Background**
+   * Introduce the main concepts and backgrounds for understanding the work being done, work core fundamentals
+   * Related Works showing the research subject state-of-the-art
+   * Summary
 1. **Design/Development**
- * The development goes here in details
- * Summary
+   * The development goes here in details
+   * Summary
 1. **Experiments**
- * Details description of experiments performed to test and verify the design proposed
- * Summary
+   * Details description of experiments performed to test and verify the design proposed
+   * Summary
 1. **Result Discussion**
- * Results discussion and assessments 
- * Summary
+   * Results discussion and assessments 
+   * Summary
 1. **Conclusion**
- * Specific conclusions (specifically related to the work done)
- * Main contributions (what is left for others to work/continue on)
- * General conclusions (what are the possible impacts of the work done)
- * Scientific and technological production (papers, ...)
- * Recommendations
- * Future Work Suggestions
+   * Specific conclusions (specifically related to the work done)
+   * Main contributions (what is left for others to work/continue on)
+   * General conclusions (what are the possible impacts of the work done)
+   * Scientific and technological production (papers, ...)
+   * Recommendations
+   * Future Work Suggestions
 
 **References**
 
@@ -135,8 +135,8 @@ Last part to write, mainly after have the work almost finished
 *Resumo* / Abstract (must be both Portuguese and English)
 
 1. *Introdução* / Introduction
-1. *Trabalhos Relacionados* / Related Works
-1. *Objetivo* / Main Goal
+1. *Trabalhos Relacionados* / Related Works showing the research subject state-of-the-art
+1. *Objetivo* / Research Question & Research Goal
 1. *Escopo da Pesquisa* / Research Scope
 1. *Plano de Trabalho e Cronograma* / Work Plan and Schedule
 1. *Materiais e Métodos* / Parts and Methods
