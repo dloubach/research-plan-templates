@@ -60,4 +60,5 @@ view:
 
 # continuous latex compilation
 continous:
+	make all
 	latexmk -pvc -bibtex -pdf -view=none $(MAIN).tex
