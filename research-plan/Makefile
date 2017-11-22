@@ -50,8 +50,14 @@ clean:
 	rm -f ./*.rel
 	rm -f ./\#*
 	rm -f ./*.tdo
+	rm -f ./*.fdb_latexmk
+	rm -f ./*.fls
 	rm -rf ./figs/*.pdf
 
 # works for linux
 view:
 	evince $(MAIN).pdf &
+
+# continuous latex compilation
+continous:
+	latexmk -pvc -bibtex -pdf -view=none $(MAIN).tex
