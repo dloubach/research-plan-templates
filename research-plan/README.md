@@ -26,7 +26,7 @@ LaTeX related:
 
 ## Linux users ##
 
-All you need is in `apt-get` (basically) to get some [TeX Live](http://www.tug.org/texlive/)
+All you need is in `apt` (basically) to get some [TeX Live](http://www.tug.org/texlive/)
 
 ## OS X users ##
 
