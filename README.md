@@ -71,7 +71,7 @@ When writing the final report, the following structure is suggested:
    * Descrição dos experimentos realizados
    * Sumário
 1. **Análise de Resultados**
-   * Discussão e avaliação
+   * Discussão e avaliação, incluindo relato dos _limites_ da contribuição
    * Sumário
 1. **Conclusão**
    * Conclusões específicas (relacionados especificamente ao trabalho)
@@ -109,7 +109,7 @@ São os últimos textos para se escrever, após o trabalho praticamente pronto
    * Details description of experiments performed to test and verify the design proposed
    * Summary
 1. **Result Discussion**
-   * Results discussion and assessments 
+   * Results discussion and assessments, including contribution limits (without bias)
    * Summary
 1. **Conclusion**
    * Specific conclusions (specifically related to the work done)
