@@ -109,7 +109,7 @@ São os últimos textos para se escrever, após o trabalho praticamente pronto
    * Details description of experiments performed to test and verify the design proposed
    * Summary
 1. **Result Discussion**
-   * Results discussion and assessments, including contribution limits (without bias)
+   * Results discussion and assessments, including contribution _limits_ (without bias)
    * Summary
 1. **Conclusion**
    * Specific conclusions (specifically related to the work done)
