@@ -1,0 +1,147 @@
+% ---------------------------------------------------------------------------- 
+% 
+% $Description: Slides presentation using Beamer $
+% 
+% $Author: dloubach $
+% $Release Date: September 28, 2015 $
+% 
+% This was first used in the Technical Discussions Seminar of our lab:
+% Advanced Computing, Control & Embedded Systems Laboratory
+% http://www.fem.unicamp.br/~acceslab
+% 
+% ------------------------------------------------------------------------- 
+
+\documentclass[10pt, aspectratio=169]{beamer}
+\usepackage{beamer-settings}   % customized presentation settings
+
+% presentation title
+\title[COMP ITA]{Research Presentation}
+\subtitle[*]{\LaTeX-based Example}
+
+% author info
+\author[Surname, Name]{
+  \textbf{Author Name}\\
+  \tiny{[[Master|PhD] student | Professor]] \\
+    email@provider.br} \\
+}
+
+% author affiliation
+\institute[ITA]{
+  Department of Computer Systems\\%
+  Computer Science Division -- IEC\\%
+  Aeronautics Institute of Technology -- ITA\\%
+
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[scale=.17]{logo-ita-t}
+  \end{figure}
+}
+
+\date{\tiny Today}
+
+\pgfdeclareimage[width=0.110\textwidth]{university-logo}{figs/logo-ita-t}
+\logo{\pgfuseimage{university-logo}}
+
+\makeatletter
+\makeatother
+
+
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section[]{}
+\begin{frame}
+  \frametitle{Agenda}
+  \tableofcontents
+\end{frame}
+
+\section{Motivation}
+\begin{frame}
+  \frametitle{Motivation}
+  
+  \begin{quotation}
+    Give your research context here
+  \end{quotation}
+  
+  \begin{itemize}
+  \item \vfill Why this subject is relevant?
+  \item \vfill What are the main drawbacks of it?
+  \end{itemize}
+\end{frame}
+
+\section{Research Goal}
+\begin{frame}
+  \frametitle{Research Goal}
+
+  \begin{enumerate}
+  \item \vfill Clearly state your research goal \pause
+  \item \vfill You may also give a research question in here \pause
+  \item \vfill And, your expected contributions to your research area
+  \end{enumerate}
+\end{frame}
+
+\section{Development \& Methods}
+\begin{frame}
+  \frametitle{Development \& Methods}
+  Present you development here
+
+  \vfill
+  Which methods have you used to go through your research?
+\end{frame}
+
+\section{Results and Discussions}
+\begin{frame}
+  \frametitle{Results}
+
+  \begin{itemize}
+  \item Which results did you achieved? \pause
+  \item Are they preliminary, final? Explain them all
+  \end{itemize}		
+\end{frame}
+
+\section{Conclusion}
+\begin{frame}
+  \frametitle{Conclusion}
+  Respond to your research question here, \emph{i.e.}, which was your
+  contribution and work limitations
+\end{frame}
+
+
+\section{References}
+\begin{frame}
+  \frametitle{References}
+  
+  \scriptsize
+  Never forget to cite your sources...
+  
+  \nocite{Ganssle:2000aa, Liu:1973aa, Douglass:2003aa}
+
+  \setlength\bibitemsep{\baselineskip}
+  \renewcommand*{\bibfont}{\scriptsize}
+  \printbibliography
+\end{frame}
+
+\section{Questions \& Answers}
+\begin{frame}
+  \frametitle{Questions \& Answers}
+
+  \begin{quotation}
+  Prepare for the worst, hope for the best!\\    
+  \end{quotation}
+  \flushright
+  Benjamin Disraeli
+\end{frame}
+
+\begin{frame}
+  \frametitle{Enjoy your research}
+  
+\end{frame}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

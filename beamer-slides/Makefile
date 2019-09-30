@@ -1,6 +1,6 @@
 # General Makefile rules
 
-TOPIC   = slides
+TOPIC   = presentation
 MAIN    = $(TOPIC)
 
 BIBDIR       = refs
@@ -8,13 +8,11 @@ BIBFILES     = $(wildcard $(BIBDIR)/*.bib)
 TEXFILES     = $(wildcard ./*.tex)
 STYLEFILES   = $(wildcard ./*.sty)
 
-all: slides
-
-slides: $(MAIN).pdf
+all: $(MAIN).pdf
 
 # main rule
 $(MAIN).pdf: $(MAIN).tex $(TEXFILES)  Makefile $(STYLEFILES) $(BIBFILES)
-	# Create PDF-files
+   # Create PDF-files
 	pdflatex $(subst .pdf,.tex,$@)
 	pdflatex $(subst .pdf,.tex,$@)
 	bibtex $(subst .pdf,,$@)
@@ -54,10 +52,26 @@ clean:
 	rm -f ./*.fdb_latexmk
 	rm -f ./*.fls
 	rm -rf ./figs/*.pdf
+	rm -rf ./*-blx.bib
+	rm -rf ./*.run.xml
 
-# works for linux
-view:
-	evince $(MAIN).pdf &
+
+# works for linux and mac
+# decide which PDF viewer based on the operating system
+LINUX_PDF_VIEWER = evince
+MAC_PDF_VIEWER = open
+PDF_VIEWER =
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Linux)
+	PDF_VIEWER = $(LINUX_PDF_VIEWER)
+else
+	PDF_VIEWER = $(MAC_PDF_VIEWER)
+endif
+
+view: $(MAIN).pdf
+	@echo Currently using $(UNAME_S) 
+	$(PDF_VIEWER) $(MAIN).pdf &
+
 
 # continuous latex compilation
 continous:

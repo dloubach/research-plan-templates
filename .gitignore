@@ -181,3 +181,6 @@ TSWLatexianTemp*
 
 # emacs related
 auto/
+
+# other
+*~

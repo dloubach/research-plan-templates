@@ -1,0 +1,129 @@
+% ---------------------------------------------------------------------------- 
+% 
+% $Description: Beamer settings $
+% 
+% $Author: dloubach $
+% $Release Date: September 30, 2017 $
+% 
+% Some basic settings from our great presentation
+% 
+% ------------------------------------------------------------------------- 
+
+% beamer theme setup
+\mode<presentation>
+{
+  \usetheme{Hannover} %other templates i like: Hannover, Berkeley, PaloAlto
+  \setbeamercovered{transparent}  
+  \usefonttheme[onlymath]{serif}   % Beamer Math to look like Article Math
+  \usecolortheme{seahorse}
+}
+
+\usepackage{mathptmx} % it replaces the old 'times' package, now obsolete
+
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+\usepackage{graphics}
+
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{color}
+
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{pifont}
+\usepackage{overpic}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{subcaption}
+
+%\usepackage[backend=bibtex, style=verbose]{biblatex} % new reference style
+
+% no labels in captions
+\usepackage[margin=10pt, font=footnotesize, labelformat=empty]{caption}
+
+\usepackage{listings}
+% setup for C
+\lstdefinestyle{customC}{language=C,
+  morekeywords={enquanto, se, senao},
+  backgroundcolor = \color{lightgray},
+  numbers=left,
+  numbersep=3pt,
+  numberstyle=\tiny,
+  basicstyle=\ttfamily,
+  keywordstyle=\color{blue}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  commentstyle=\color{teal}\ttfamily\textbf,
+  % morecomment=[l][\color{gray}]{\#},
+  showstringspaces=false,
+  emph={% 
+    write, read%
+  },emphstyle={\itshape}%
+}
+% setup for Haskell
+\lstdefinestyle{customhaskell}{
+	numbers = left,
+	xleftmargin = 3pt,
+	belowcaptionskip = 1\baselineskip,
+	breaklines = true,
+	frame = lines,
+	language = Haskell,
+	showstringspaces = false,
+	basicstyle = \tiny\ttfamily,
+	keywordstyle = \bfseries,
+	commentstyle = \ttfamily\color[gray]{0.5},
+	otherkeywords = {Signal, actor11SDF, actor21SDF, mapSY, zipWithSY, signal},
+	tabsize = 2,
+	keepspaces = true,
+	morecomment=[l]\%,
+ }
+
+% https://tex.stackexchange.com/questions/79594/outsourcing-tikz-code
+\usepackage{tikz, pgfplots, pgfkeys}
+\usepackage{standalone}
+
+
+\usepackage{cleveref}
+
+% figures path
+\graphicspath{{./figs/}}
+
+
+% SyncTex is used to synchronize the editor and the viewer.
+% Please comment it if someone is having problems compiling with it.
+% AucTex is able to highlight on the pdf viewer the location of the cursor
+% on the Emacs buffer (on MaC, should use Skim as viewer).
+\synctex=1
+
+% slide transition
+\AtBeginSection[]
+{
+  \begin{frame}<beamer> 
+    \frametitle{Agenda}
+    \tableofcontents[currentsection, hideallsubsections]
+  \end{frame}
+}
+
+% font size on the frame subtitle
+\setbeamerfont{framesubtitle}{size=\normalsize}
+
+
+% navigation symbols -- footnote
+% http://www.shawnlankton.com/2008/02/beamer-and-latex-with-keynote-theme/
+\setbeamertemplate{navigation symbols}{} %no nav symbols
+\setbeamercolor{mycolor}{fg=lightgray,bg=white}
+\setbeamertemplate{footline}{
+  \begin{beamercolorbox}[ht=0ex,leftskip=2cm,rightskip=.3cm]{mycolor}
+    \vspace{0.075cm}
+    \insertdate \hfill \insertshortauthor \hfill \inserttitle
+    \hfill \insertshortinstitute \hfill \insertframenumber /\inserttotalframenumber
+  \end{beamercolorbox}
+  % \vspace*{0.1cm}
+}
+
+
+\usepackage[backend=bibtex, style=verbose]{biblatex} % new reference style
+\addbibresource{refs/my-refs} % your bibtex file
