@@ -40,8 +40,6 @@
 \usepackage[absolute,overlay]{textpos}
 \usepackage{subcaption}
 
-%\usepackage[backend=bibtex, style=verbose]{biblatex} % new reference style
-
 % no labels in captions
 \usepackage[margin=10pt, font=footnotesize, labelformat=empty]{caption}
 
@@ -85,12 +83,10 @@
 \usepackage{tikz, pgfplots, pgfkeys}
 \usepackage{standalone}
 
-
 \usepackage{cleveref}
 
 % figures path
 \graphicspath{{./figs/}}
-
 
 % SyncTex is used to synchronize the editor and the viewer.
 % Please comment it if someone is having problems compiling with it.
@@ -114,9 +110,9 @@
 % navigation symbols -- footnote
 % http://www.shawnlankton.com/2008/02/beamer-and-latex-with-keynote-theme/
 \setbeamertemplate{navigation symbols}{} %no nav symbols
-\setbeamercolor{mycolor}{fg=lightgray,bg=white}
+\setbeamercolor{mycolor}{fg=blue!40,bg=blue!16.5}
 \setbeamertemplate{footline}{
-  \begin{beamercolorbox}[ht=0ex,leftskip=2cm,rightskip=.3cm]{mycolor}
+  \begin{beamercolorbox}[ht=4ex,leftskip=2cm,rightskip=.3cm]{mycolor}
     \vspace{0.075cm}
     \insertdate \hfill \insertshortauthor \hfill \inserttitle
     \hfill \insertshortinstitute \hfill \insertframenumber /\inserttotalframenumber
@@ -124,6 +120,5 @@
   % \vspace*{0.1cm}
 }
 
-
-\usepackage[backend=bibtex, style=authoryear]{biblatex} % new reference style
+\usepackage[backend=bibtex, style=verbose]{biblatex} % new reference style
 \addbibresource{refs/my-refs} % your bibtex file
