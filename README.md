@@ -1,6 +1,6 @@
 # Research Plan Templates & Presentation #
 
-This repository intends to supply the students, that are about the develop research, with "research plan templates", including a [Beamer-based presentation template](https://github.com/dloubach/research-plan-templates/tree/master/beamer-slides).
+This repository intends to supply students, that are about to start developing research, with "research plan templates", including a [Beamer-based presentation template](https://github.com/dloubach/research-plan-templates/tree/master/beamer-slides).
 
 Students will find templates for undergraduate, master and doctorate.
 
