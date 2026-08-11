@@ -56,7 +56,7 @@ clean:
 
 # works for linux
 view:
-	evince $(MAIN).pdf &
+	open $(MAIN).pdf &
 
 # continuous latex compilation
 continous:
