@@ -58,7 +58,7 @@ clean:
 
 # works for linux and mac
 # decide which PDF viewer based on the operating system
-LINUX_PDF_VIEWER = evince
+LINUX_PDF_VIEWER = open
 MAC_PDF_VIEWER = open
 PDF_VIEWER =
 UNAME_S := $(shell uname -s)
