@@ -48,7 +48,7 @@ When writing the final report, the following structure is suggested:
 
 *Referências Bibliográficas* / References
 
-[Top](#research-plan-templates)
+[Top](#research-plan-templates--presentation)
 
 
 
@@ -89,7 +89,7 @@ When writing the final report, the following structure is suggested:
 
 Last part to write, mainly after have the work almost finished
 
-[Top](#research-plan-templates)
+[Top](#research-plan-templates--presentation)
 
 
 
@@ -111,4 +111,4 @@ Abstract (must be both Portuguese and English)
 
 References
 
-[Top](#research-plan-templates)
+[Top](#research-plan-templates--presentation)
