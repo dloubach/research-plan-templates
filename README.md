@@ -8,7 +8,7 @@ Students will find templates for undergraduate, master and doctorate.
 
 * [MS reports](#minimum-chapterstructure-suggestion-for-ms-reports)
 
-* [PhD Research Plan](#chapters-suggestion-for-doctorate-research-plans)
+* [PhD Research Plan](#chapters-suggestion-for-phd-research-plans)
 
 :point_right: **There's also a [how-to](research-plan#how-to) available**, and also a [wiki page](https://github.com/dloubach/research-plan-templates/wiki)
 
@@ -64,7 +64,7 @@ When writing the final report, the following structure is suggested:
    * Related Works showing the research subject state-of-the-art
    * Statement of what your work does different from related works
    * Summary
-1. **Design/Development: Your Great Proposal **
+1. **Design/Development: Your Great Proposal**
    * The development goes here in details
    * Present your concept for addressing your research goal in a structured and organized way
    * Summary
