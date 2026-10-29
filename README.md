@@ -6,7 +6,7 @@ Students will find templates for undergraduate, master and doctorate.
 
 * [Undergrad/MS Research Plans (Portuguese/English)](#chapters-suggestion-for-undergraduatemaster-research-plans)
 
-* [MS reports](#minimum-chapterstructure-suggestion-for-MS-reports-english)
+* [MS reports](#minimum-chapterstructure-suggestion-for-ms-reports)
 
 * [PhD Research Plan](#chapters-suggestion-for-doctorate-research-plans)
 
@@ -93,7 +93,7 @@ Last part to write, mainly after have the work almost finished
 
 
 
-## Chapters suggestion for doctorate research plans ##
+## Chapters suggestion for PhD research plans ##
 
 Research Title
 
